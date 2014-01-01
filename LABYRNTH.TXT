@@ -1,0 +1,160 @@
+
+                              L A B Y R N T H 
+                              ---------------
+                                produced by
+                             S T A R L I G H T
+                               programmed by
+                              DANIEL  BOSWELL
+
+ This program is public domain, so feel free to copy it, distribute it and 
+change it, but please do not attempt to sell it
+
+ LABYRNTH
+
+Labyrnth is a maze game incorporating the following features
+
+   - VGA graphics (640 * 480 * 16)
+   - real time
+   - level editor
+   - password system
+
+The object of the game is simple, to get to the exit situated somewhere in the 
+maze.
+The mazes are littered with objects and obstacles, these include:
+
+   - Colour coded doors
+   - Colour coded keys
+   - Planks
+   - Water
+   - Trapdoors
+   - Switches
+   - Moving blocks
+   - Sledgehammers
+   - Levitating spells
+   - Teleports
+
+Doors:
+   There are 6 coloured doors. Red,blue,green,yellow,brown and grey.
+   For every coloured door there is a clour coded key which opens any door of
+   the same color as the key
+Planks:
+   Planks are used to make bridges over water so that the water can be 
+   crossed. To create a bridge make sure you are carrying planks and just walk
+   on to the water and the bridge will be created underneath. Planks can only
+   be used once each, so don't waste them.
+Water:
+   Water is deadly, so make sure you are carrying planks when you walk onto it
+Trapdoors:
+   Trapdoors can exist in 2 states, opened and closed. If a trapdoor is closed
+   you can just walk over it. If you are feeling suicidal however then you
+   could walk onto an open trapdoor and plunge to your doom, lemmings style
+Switches:
+   Switches govern the state of every trapdoor in the maze. When you walk onto
+   a switch every Trapdoor in the maze will change state, e.g from opened to 
+   closed and vice-versa
+Moving blocks:
+   Be very wary of these. When you are least suspecting sections of wall can 
+   crash down to the floor in any direction, blocking your way.
+Sledgehammers:
+   Just the thing to get to that secret place. When you use a hammer walls and
+   doors can be smashed aside, but make sure you don't use them in the wrong 
+   places or it will lead to an early death. You can however only use a hammer
+   for 5 consecutive goes before it smashes and you are left hammerless.
+Levitating spell:
+   These are rare but VERY useful. A levitating spell is similar to maltesers
+   making you so light you rise up into the air! Whilst you are levitating you
+   can traverse water and trapdoors, but are unable to pick up objects. The
+   effects of the spell can be dismissed at will, but once you have dismissed
+   it you can not levitate again until you find another spell.
+Teleports:
+   When you walk into these they automatically teleport you to another part of
+   the level.
+
+Game Controls:
+   For the controls to work CAPS LOCK needs to be turned off.
+
+   g - pick up an object
+   d - drop an object
+   f - use a hammer
+   s - use a levitation spell
+   q - lose a chance
+   p - pause the game (there is a bug in the pause system, so please do not
+                      (pause the game as it mucks up the timer)
+   To stop using the levitate spell, drop the spell book
+   
+   To move use the arrow keys
+
+The Screen:
+   The screen consists of 2 areas, the viewing window and the status bar
+
+The viewing window:
+   On the left hand side of the viewing window is the area immeadiatly  
+   surrounding you
+   On the right hand side of the viewing window is the map.
+
+The status bar:
+   On the left the object you are carrying is displayed.
+   Next is the timer
+   Then there is the amount of chances you have left.
+   On the right is the special object window.
+   
+   The Special object window:
+      When you use the sledgehammer or the levitating spell the special icon
+      lights up. When the sledgehammer icon lights the number of turns left is
+      displayed to the right of it. The icons darken again after the items have 
+      been used
+
+Arrows:
+   In someplaces in the game arrows have been placed to give you clues of 
+   where to go next.
+
+Chances:
+   You have 3 chances throughout the game. When you die you automatically lose
+   a chance. If you are trapped and can proceed no further in the game you can
+   press q to lose a chance and go back to the beggining with everything reset
+
+Passwords:
+   You can access level 2 by completing level 1 or by entering in the password
+   "bbbb" at the password prompt
+
+The Level Editor
+   The level editor can be used to design new levels. Do not attempt to save
+   any levels though as this could seriously damage the existing levels data
+
+IMPORTANT - Labyrnth uses a seperate data file, so make sure that labyrnth.dat
+            is in the same directory as labyrnth.bas
+
+IMPORTANT - This is unfinished code. Having spent ages on this I have lost 
+            motivation and so I couldn't be bothered to finish it. Because of
+            this the program will inevitably contain bugs, and some of the 
+            rules (see above) may not be working. However if you like what you 
+            see don't hesitate to mail me and tell me, as this might motivate 
+            me to finish the game. Also, if you have any ideas on new features
+            which you think should be included in the game then tell me as I
+            might incorporate it into the code.
+
+This program only contains to levels, and therefore should be considered as a
+playable demo.
+The code of this program is badly written as it contains no sub procedures and
+lots of GOTO statements. Sorry if you have a hard time following the code but
+I promise future programs shall be written better, with lots of SUB's and 
+REMarks to help you understand the code
+
+This program requires Qbasic to run
+
+Compuserve mail address:
+DANIEL BOSWELL - 100624,356
+
+**** FORTHCOMING GAMES FROM STARLIGHT ****
+
+BATTLESHIPS:
+   The classic game of battleships, featuring:
+      
+      - Quality VGA graphics (640 * 480 * 16)
+      - "Intelligent" computer opponent
+      - Friendly user interface
+
+
+
+
+
